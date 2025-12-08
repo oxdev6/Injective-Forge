@@ -1,0 +1,22 @@
+{
+  "name": "injective-devkit",
+  "private": true,
+  "version": "0.1.0",
+  "description": "An opinionated TypeScript SDK and React toolkit for building DeFi frontends on Injective.",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "npm run build -w @injective-devkit/core && npm run build -w @injective-devkit/exchange && npm run build -w @injective-devkit/wallet && npm run build -w @injective-devkit/react && npm run build -w @injective-devkit/ui && npm run build -w @injective-devkit/indexer && npm run build -w @injective-devkit/cli && npm run build -w @injective-devkit/testing",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.6.3"
+  }
+}
