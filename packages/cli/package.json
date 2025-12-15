@@ -1,0 +1,18 @@
+{
+  "name": "@injective-devkit/cli",
+  "version": "0.1.0",
+  "main": "dist/index.cjs",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "inj": "dist/index.cjs"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "peerDependencies": {
+    "@injective-devkit/core": "^0.1.0",
+    "typescript": "^5.6.3"
+  }
+}
+
+

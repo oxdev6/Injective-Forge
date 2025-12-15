@@ -1,0 +1,17 @@
+{
+  "name": "@injective-devkit/testing",
+  "version": "0.1.0",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "peerDependencies": {
+    "@injective-devkit/core": "^0.1.0",
+    "typescript": "^5.6.3"
+  }
+}
+
+
